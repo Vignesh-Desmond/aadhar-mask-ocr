@@ -8,7 +8,7 @@ Usage:
 
 Output:\
 `Masked digits in given image. Displaying...`\
-![alt text](https://github.com/Vignesh-Desmond/aadhar-mask-ocr/blob/main/masked_images/maskimg3.png)
+![alt text](https://github.com/Vignesh-Desmond/aadhar-mask-ocr/blob/main/masked_images/maskimg3.png)\
 `UID : 3429 2099 3643`\
 `Press q over output window to close`
 
