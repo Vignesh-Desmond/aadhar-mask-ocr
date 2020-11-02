@@ -67,7 +67,9 @@ image = cv2.imread(args["image"])
 thres_image, resized_image = preprocessing(image)
 masked_image, UID = aadhar_mask_and_ocr(thres_image, resized_image)
 
+print('Masked digits in given image. Displaying...')
 cv2.imshow('mask' + args["image"], masked_image)
+
 # To save ouput, uncomment below line
 cv2.imwrite('mask' + args["image"], masked_image)
 print('UID' + ' : ' + ' '.join(UID))
